@@ -1,0 +1,77 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    justify-content: left;
+    width: 100%;
+    height: auto;
+}
+
+.nav-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 50px;
+}
+
+.nav-button:hover {
+    background-color: #ffffff23;
+}
+
+.inicio {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.fondo {
+    position: relative;
+    display: inline-block;
+}
+
+.fondo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.contenido{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(50%, 50%);
+    color: rgb(3, 3, 3);
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    z-index: 1;
+
+}
+
+
+.informacion {
+    padding-top: 20px;
+}
+
+.botones1 button{
+    color: aliceblue;
+    background-color: #333;
+    cursor: pointer; /* Cursor en forma de puntero */
+    transition: background-color 0.3s; 
+    width: 100px;
+    height: 30px;
+    
+}
+.botones1 button:hover {
+    background-color: #ffffff67;
+}

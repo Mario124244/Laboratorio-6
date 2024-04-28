@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+   
+    
+    
+}
+.navbar {
+    background-color: #333; 
+    justify-content: left; 
+    width: 100%;
+    height: auto;
+}
+.nav-button {
+    background-color: #333; /* Color de fondo verde */
+    color: white; /* Texto en color blanco */
+    border: none; /* Sin bordes */
+    padding: 10px; /* Relleno alrededor del texto */
+    text-align: center; /* Alinea el texto al centro */
+    text-decoration: none; /* Elimina decoraciones de texto */
+    font-size: 12px; /* Tamaño de letra */
+    cursor: pointer; /* Cursor en forma de puntero */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+    margin-left: 50px;
+}
+.nav-button:hover {
+    background-color: #ffffff23;
+}
+.contenido {
+    width: 100%; /* O el ancho que necesites */
+    height: 100%; /* O la altura que necesites */
+    
+    
+}
+
+.titulo1{
+    color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: right;
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+    text-align: center;
+    padding-top: 120px;
+    padding-right: 90px;
+    font-size: 20px;
+    
+}
+.fondo img {
+    position: absolute; /* Posiciona la imagen de forma absoluta dentro de su contenedor relativo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que la imagen cubra todo el contenedor */
+    height: 100%; /* Asegura que la imagen cubra todo el contenedor */
+    z-index: -1; /* Coloca la imagen detrás del texto */
+}
+h2{
+    align-items: center;
+}
+.botones1{
+    display: flex;
+    justify-content: right;
+    padding-right: 80px;
+    
+    
+    
+}
+.botones1 button{
+    
+    color: aliceblue;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer; /* Cursor en forma de puntero */
+    transition: background-color 0.3s; 
+    
+}
+.botones1 button:hover {
+    background-color: #ffffff67;
+}
