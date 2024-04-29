@@ -1,80 +1,85 @@
 body {
-    font-family: Arial, sans-serif; /* Tipo de letra */
-    margin: 0; /* Elimina márgenes predeterminados */
-    padding: 0; /* Elimina el relleno predeterminado */
-   
-    
-    
+    font-family: "Fira Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .navbar {
-    background-color: #333; 
-    justify-content: left; 
+    background-color: #333;
+    justify-content: left;
     width: 100%;
     height: auto;
+    padding: 10px;
 }
+
 .nav-button {
-    background-color: #333; /* Color de fondo verde */
-    color: white; /* Texto en color blanco */
-    border: none; /* Sin bordes */
-    padding: 10px; /* Relleno alrededor del texto */
-    text-align: center; /* Alinea el texto al centro */
-    text-decoration: none; /* Elimina decoraciones de texto */
-    font-size: 12px; /* Tamaño de letra */
-    cursor: pointer; /* Cursor en forma de puntero */
-    transition: background-color 0.3s; /* Transición suave del color de fondo */
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
     margin-left: 50px;
 }
+
 .nav-button:hover {
     background-color: #ffffff23;
 }
-.contenido {
-    width: 100%; /* O el ancho que necesites */
-    height: 100%; /* O la altura que necesites */
-    
-    
+
+.active {
+    border-bottom: 2px solid #03fcef;
 }
 
-.titulo1{
+/* Estilo adicional para los botones */
+
+
+
+.inicio {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+
+.fondo {
+    position: relative;
+    display: inline-block;
+}
+
+.fondo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.contenido{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(50%, 50%);
     color: rgb(3, 3, 3);
-    display: flex;
-    justify-content: right;
     font-family: "Fira Sans", sans-serif;
     font-style: italic;
     text-align: center;
-    padding-top: 120px;
-    padding-right: 90px;
     font-size: 20px;
-    
+    z-index: 1;
+
 }
-.fondo img {
-    position: absolute; /* Posiciona la imagen de forma absoluta dentro de su contenedor relativo */
-    top: 0;
-    left: 0;
-    width: 100%; /* Asegura que la imagen cubra todo el contenedor */
-    height: 100%; /* Asegura que la imagen cubra todo el contenedor */
-    z-index: -1; /* Coloca la imagen detrás del texto */
+
+
+.informacion {
+    padding-top: 20px;
 }
-h2{
-    align-items: center;
-}
-.botones1{
-    display: flex;
-    justify-content: right;
-    padding-right: 80px;
-    
-    
-    
-}
+
 .botones1 button{
-    
     color: aliceblue;
-    text-align: center;
-    width: 100px;
-    height: 30px;
-    margin: 10px;
     background-color: #333;
     cursor: pointer; /* Cursor en forma de puntero */
     transition: background-color 0.3s; 
+    width: 100px;
+    height: 30px;
     
 }
 .botones1 button:hover {
